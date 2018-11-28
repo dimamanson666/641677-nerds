@@ -5,7 +5,6 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #000000;
-  
   background-color: #ffffff;
 }
 a {
@@ -13,6 +12,7 @@ a {
 }
 
 .button {
+  display: inline-block;
   font: inherit;
   text-align: center;
   color: #000000;
@@ -42,8 +42,16 @@ a {
 }
 .site-navigation-item,
 .user-navigation,
-.site-navigation-current {
+.site-navigation-current,
+.features-list,
+.catalog-list,
+.footer-social ul {
+	margin: 0;  
+	padding: 0;
     list-style: none;
+    }
+.features-list {  
+  text-align: center;
 }
 .site-navigation-item a,
 .user-navigation a {
@@ -60,17 +68,9 @@ a {
   color: #a6a6a6 ;
 }
 .site-navigation-current a {
- color: black;
+ color: #000000;
  border-bottom: 2px solid #fb565a;
 }
-.features-list {
-   list-style: none;
-}
-.features-list {
-	text-align: center;
-
-}
-
 .feature-item h3 {
   font-size: 24px;
   font-weight: 700;
@@ -90,7 +90,6 @@ a {
 .filter ul {
   list-style: none;
   line-height: 20px;
-
 }
 .filter-input:hover + label,
 .filter-input:focus + label {
@@ -98,9 +97,6 @@ a {
 }
 .filter-input:disabled + label {
   color: #ededed;
-}
-.catalog-list {
-  list-style: none;
 }
 .catalog-item {
   background-color: #f8f8f8;
@@ -115,17 +111,14 @@ a {
   font-size: 16px;
   line-height: 22px;
 }
-.footer-text h3{
+.footer-text h3 {
  text-align: center;
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
 }
-.footer-social ul {
-  list-style: none;
-}
 .social-list a {
-  color: black;
+  color: #000000;
 }
 .modal-login {
 display: none;
