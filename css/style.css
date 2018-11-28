@@ -44,6 +44,7 @@ a {
 .user-navigation,
 .site-navigation-current,
 .features-list,
+.filter ul,
 .catalog-list,
 .footer-social ul {
 	margin: 0;  
@@ -88,7 +89,6 @@ a {
   line-height: 30px;
 }
 .filter ul {
-  list-style: none;
   line-height: 20px;
 }
 .filter-input:hover + label,
