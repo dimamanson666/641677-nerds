@@ -11,7 +11,7 @@ a {
    text-decoration: none;
 }
 
-.button {
+.button {                          /* стиль для кнопок */
   display: inline-block;
   font: inherit;
   text-align: center;
@@ -20,8 +20,21 @@ a {
   text-transform: uppercase;
   background-color: #eeeeee;
   border: none;
+ }
+.button-red {                      /* делаем цвет для кнопок-ссылок */
+ background-color: #fb565a;
+ color: #ffffff;
 }
-.button:hover,
+.button-green {
+ background-color: #00ca74;
+  color: #ffffff;
+ }
+.button-yellow {
+ background-color: #efc849;
+ color: #ffffff;
+ }
+
+.button:hover,                     /* реагирование кнопок */
 .button:focus {
   background-color: #dfdfdf;
 }
@@ -29,8 +42,6 @@ a {
   color: #b7b7b7 ;
   background-color: #d5d5d5;
 }
-
-
 .main-navigation {
    font-size: 16px;
    line-height: 30px;
@@ -40,7 +51,7 @@ a {
    font-weight: 700;
 
 }
-.site-navigation-item,
+.site-navigation-item,             /* Обнуляем значение списков */
 .user-navigation,
 .site-navigation-current,
 .features-list,
@@ -51,14 +62,15 @@ a {
 	padding: 0;
     list-style: none;
     }
-.features-list {  
+.features-list {                   /* выравниваем по центру */
   text-align: center;
 }
-.site-navigation-item a,
+
+.site-navigation-item a,           /* цвет ссылок */
 .user-navigation a {
    color: #000000;
 }
-.site-navigation-item a:hover,
+.site-navigation-item a:hover,     /* реагирование ссылок */
 .site-navigation-item a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus { 
@@ -68,7 +80,7 @@ a {
 .user-navigation a:active {
   color: #a6a6a6 ;
 }
-.site-navigation-current a {
+.site-navigation-current a {       /* Подчеркивание активной ссылки и цвет */
  color: #000000;
  border-bottom: 2px solid #fb565a;
 }
