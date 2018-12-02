@@ -8,10 +8,12 @@
      <link href="css/normalize.css" rel="stylesheet">
      <link href="css/style.css" rel="stylesheet">
   </head>
-   <body>
+   <body class="inner-page">
      <header class="main-header">
         <nav class="main-navigation">
-         <a class="main-header-logo" href="index.html">
+          <div class="main-navigation-wrapper">
+          <div class="container">
+           <a class="main-header-logo" href="index.html">
           <img src="img/logo-catalog.svg" width="160" 
           height="65" alt="Логотип «Nerds»">
          </a>
@@ -26,19 +28,21 @@
            <li class="site-navigation-item"><a class="site-navigation-link" 
             href="contacts.html">Контакты</a></li>
          </ul>
-         <ul class="user-navigation">
+          <ul class="user-navigation">
            <li class="basket-link"><a href="basket.html">Корзина</a>
              <img src="img/basket-icon.svg" alt="basket">
            </li>
          </ul>
-        </nav>
+         
+         </div>
+        </div>
+        <h3 class="page-title">Магазин готовых шаблонов</h3>
+       </nav>
         </header>
 
-
-
-
   <main class="container">
-    <h1 class="page-title">Магазин готовых шаблонов</h1>
+    
+    <div class="catalog-columns">
     <section class="filters">
        <h2 class="visually-hidden">Фильтр товаров</h2>
   <form class="filter" method="get" action="#">
@@ -162,8 +166,10 @@
          </li>
         </ul>
      </section>
+   </div>
    </main>
    <footer class="main-footer">
+    <div class="container">
          <div class="footer-social">
           <ul class="social-list">
            <li class="social-list-item"><a class="social-link social vk" href="#">
@@ -181,6 +187,7 @@
         <h3>Давайте дружить,это выгодно!</h3>
             Скидка 10% для друзей из социальных сетей
        </div>
+     </div>
    </footer>
    <section class="modal modal-login">
      <h2>Напишите нам</h2>
