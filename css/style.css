@@ -17,22 +17,35 @@ a {                                /*отключение у ссылок под
   text-transform: none;
   font-weight: 700;
 }
-.container {
+.container {              
   width:1160px; 
   padding-left: 10px; 
   padding-right: 10px; 
   margin: 0 auto;
  }
-.button {                          /* стиль для кнопок */
-  display: inline-block;
-  font: inherit;
-  text-align: center;
-  color: #000000;
-  vertical-align: middle;
+.button {
+  display: block;
+  width: 240px;
+  padding: 13px 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
   text-transform: uppercase;
-  background-color: #eeeeee;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fb565a;
+  border-radius: 3px;
   border: none;
- }
+}
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+.button:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
 .button-red {                      /* делаем цвет для кнопок-ссылок */
  background-color: #fb565a;
  color: #ffffff;
@@ -267,7 +280,7 @@ display: none;
    margin-bottom: 110px;
 }
 
-
+.inner-page .
 
 
 
