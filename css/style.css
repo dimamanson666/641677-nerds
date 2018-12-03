@@ -17,7 +17,12 @@ a {                                /*отключение у ссылок под
   text-transform: none;
   font-weight: 700;
 }
-
+.container {
+  width:1160px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  margin: 0 auto;
+ }
 .button {                          /* стиль для кнопок */
   display: inline-block;
   font: inherit;
@@ -49,11 +54,9 @@ a {                                /*отключение у ссылок под
   color: #b7b7b7 ;
   background-color: #d5d5d5;
 }
-.container {
-  width: 1160px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
+
+
+
 .main-header {
   margin-bottom: 80px;
 }
@@ -65,7 +68,7 @@ a {                                /*отключение у ссылок под
 }
 .main-navigation {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-color: transparent;  /*временно удаляем фон шапки*/
   font-size: 16px;
@@ -77,10 +80,14 @@ a {                                /*отключение у ссылок под
 }
 .main-navigation-wrapper {
   width: 100%;
-  margin-bottom: 420px;  
+  margin-bottom: 20px;  
   background-color: #eeeeee;  
 }
 .main-navigation-wrapper .container {
+  width:1160px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 
@@ -97,7 +104,7 @@ a {                                /*отключение у ссылок под
     list-style: none;
     }
 .features-list {                   /* выравниваем по центру */
-  text-align: center;
+  text-align: left;
 }
 .feature-item {
   width: 300px;
@@ -206,6 +213,10 @@ a {                                /*отключение у ссылок под
   margin-top: 590px;
 }
 .main-footer .container {
+  width:1160px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  margin: 0 auto;
   display: flex;
 }
 .footer-social {
@@ -237,6 +248,9 @@ display: none;
    
     /* шапка второй страницы , пока оставил так,что бы не запутаться */
 
+.inner-page .main-navigation {
+  flex-direction: column;
+}
 
 .inner-page .main-header {
    margin-bottom: 55px;
@@ -252,7 +266,8 @@ display: none;
 .inner-page .page-title {
    margin-bottom: 110px;
 }
-.inner-page 
+
+
 
 
 
