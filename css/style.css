@@ -67,9 +67,6 @@ a {                                /*отключение у ссылок под
   color: #b7b7b7 ;
   background-color: #d5d5d5;
 }
-
-
-
 .main-header {
   margin-bottom: 80px;
 }
@@ -105,6 +102,11 @@ a {                                /*отключение у ссылок под
   justify-content: space-between;
 
 }
+.page-title {
+    font-size: 55px;
+    text-align: center;
+    line-height: 55px;
+}
 .site-navigation-item,             /* Обнуляем значение списков */
 .user-navigation,
 .site-navigation-current,
@@ -114,15 +116,13 @@ a {                                /*отключение у ссылок под
 .footer-social ul {
 	margin: 0;  
 	padding: 0;
-    list-style: none;
+  list-style: none;
     }
-.features-list {                   /* выравниваем по центру */
-  text-align: left;
-}
 .feature-item {
   width: 300px;
 }
 .features-list {
+  text-align: left;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -190,6 +190,17 @@ a {                                /*отключение у ссылок под
 .catalog-item:nth-child(2n) {
   margin-right: 0;
 }
+.catalog-item {
+  width: 360px;
+  margin-bottom: 34px;
+  margin-right: 40px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);                 /* стиль каталога */
+}
+.catalog-item:hover {                          /* активные ссылки каталога */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .filter fieldset {
   border: none;
 }
@@ -207,17 +218,7 @@ a {                                /*отключение у ссылок под
 .filter-input:disabled + label {
   color: #ededed;
 }
-.catalog-item {
-  width: 360px;
-  margin-bottom: 34px;
-  margin-right: 40px;
-  background-color: #f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);                 /* стиль каталога */
-}
 
-.catalog-item:hover {                          /* активные ссылки каталога */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 .main-footer {
  margin-top: 1208px;
  padding: 75px 0;
@@ -226,7 +227,7 @@ a {                                /*отключение у ссылок под
   margin-top: 590px;
 }
 .main-footer .container {
-  width:1160px; 
+  width: 1160px; 
   padding-left: 10px; 
   padding-right: 10px; 
   margin: 0 auto;
@@ -259,28 +260,11 @@ display: none;
 }
 
    
-    /* шапка второй страницы , пока оставил так,что бы не запутаться */
+    
 
-.inner-page .main-navigation {
-  flex-direction: column;
-}
 
-.inner-page .main-header {
-   margin-bottom: 55px;
 
-  /* Временно для сетки */
-  min-height: 354px;
-}
-.inner-page .main-navigation-wrapper {
-  margin-bottom: 10px;
- /* Временно для сетки */
- min-height: 285px;
-}
-.inner-page .page-title {
-   margin-bottom: 110px;
-}
 
-.inner-page .
 
 
 
