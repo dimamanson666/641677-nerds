@@ -486,8 +486,22 @@ a {                                /*отключение у ссылок под
   fill: #e37376;
 }
 .modal-login {                    /* отключение модальных окон */
-display: none;
+color: #000000;
+background-color: #ffffff;
+
+
 }
+.modal-login h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+.login-form input[type="text"] {
+  font: inherit;
+  color: #000000;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  }
+
 .price-modal {
   text-align: center;
   }
