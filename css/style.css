@@ -1036,7 +1036,9 @@ input[type="radio"].visually-hidden {
 }
 .modal-login h2 {
   font-size: 45px;
-  line-height: 45px;
+    line-height: 45px;
+    margin-bottom: 21px;
+    margin-left: -5px;
 }
 .modal {
   color: #000000;
@@ -1045,7 +1047,7 @@ input[type="radio"].visually-hidden {
   }
 .modal-close { 
   position: absolute;
-  top: 77px;
+  top: 108px;
   right: 90px;
   list-style: none;
   width: 21px;
@@ -1090,6 +1092,7 @@ input[type="radio"].visually-hidden {
   border-radius: 4px;
   opacity: 0.5;
   outline: none;
+  margin-bottom: 38px;
 }
 .modal-login input:hover {
   opacity: 1;
@@ -1119,6 +1122,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 20px;
   }
 .our-adress {
   box-sizing: border-box;
@@ -1339,6 +1343,15 @@ input[type="radio"].visually-hidden {
   background-color: #d5d5d5;
   color: #959595;
 }
+.login-form .button {
 
- /* Временно для сетки */
-  min-height: 360px;
+  width: 260px;
+
+  padding-top: 18px;
+  padding-bottom: 14px;
+
+  border: none;
+
+  background-color: #fb565a;
+}
+
