@@ -276,9 +276,8 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="1440" height="417" allowfullscreen></iframe>
               </div>
       </section>
-   
-   <footer class="main-footer">
-    <div class="container">
+      <footer class="main-footer">
+       <div class="container">
          <div class="footer-social">
           <ul class="social-list">
             <li class="social-list-item"><a class="social-link social vk" href="#">
@@ -345,63 +344,7 @@
                 </form>
        <button class="modal-close" type="button">Закрыть</button>  
    </section>
-   <script>
-  var link = document.querySelector(".feedback-button");
-  var popup = document.querySelector(".modal-login");
-  var close = popup.querySelector(".modal-close");
-  var form = popup.querySelector("form");
-  var login = popup.querySelector("[name=login]");
-  var password = popup.querySelector("[name=email]");
-  var isStorageSupport = true;
-  var storage = "";
-
-  try {
-    storage = localStorage.getItem("login");
-  } catch (err) {
-    isStorageSupport = false;
-  }
-  
-  link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.add("modal-show");
-    
-    if (storage) {
-      login.value = storage;
-      email.focus();
-    } else {
-      login.focus();
-    }
-  });
-  
-  close.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.remove("modal-show");
-    popup.classList.remove("modal-error");
-  });
-  
-  form.addEventListener("submit", function (evt) {
-    if (!login.value || !email.value) {
-      evt.preventDefault();
-      popup.classList.remove("modal-error");
-      popup.offsetWidth = popup.offsetWidth;
-      popup.classList.add("modal-error");
-    } else {
-      if (isStorageSupport) {
-        localStorage.setItem("login", login.value);
-      }
-    }
-  });
-  
-  window.addEventListener("keydown", function (evt) {
-    if (evt.keyCode === 27) {
-      evt.preventDefault();
-      if (popup.classList.contains("modal-show")) {
-        popup.classList.remove("modal-show");
-        popup.classList.remove("modal-error");
-      }
-    }
-  });
+   <script src="js/main.js"></script>
 </script>
 </body>
-
 </html>
