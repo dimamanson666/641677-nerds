@@ -10,10 +10,10 @@ body {
   min-width: 1200px;
   overflow-x: hidden;
 }
-a {                                /*отключение у ссылок подчеркивание*/
+a {                                
    text-decoration: none;          
 }
-img {                         /* Добавляем стилевые правила для всех контентных изображений в проекте.*/
+img {                         
   max-width: 100%;
   height: auto;
 }
@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: transparent;  /*временно удаляем фон шапки*/
+  background-color: transparent;  
   font-size: 16px;
   line-height: 30px;
   color: #000000;
@@ -96,7 +96,7 @@ input[type="radio"].visually-hidden {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 .button-red {  
- width: 160px;                    /* делаем цвет для кнопок-ссылок */
+ width: 160px;                    
  background-color: #fb565a;
  color: #ffffff;
 }
@@ -105,7 +105,7 @@ input[type="radio"].visually-hidden {
   background-color: #00ca74;
   color: #ffffff;
  }
-.features .button-green:hover,                     /* реагирование кнопок */
+.features .button-green:hover,                     
 .features .button-green:focus {
   background-color: #00bc6c;
 }
@@ -125,7 +125,7 @@ input[type="radio"].visually-hidden {
   background-color: #e5a722;
  }
 
-.button:hover,                     /* реагирование кнопок */
+.button:hover,                     
 .button:focus {
   background-color: #dfdfdf;
 }
@@ -144,18 +144,18 @@ input[type="radio"].visually-hidden {
 .catalog-item-image img {
   padding-top: 7px;
 }
-.site-navigation a,        /*Делаем ссылки навигации блочными и задаем отступы*/
+.site-navigation a,        
 .user-navigation a {
   padding: 20px 21px;
   display: block;          
   vertical-align: middle;
   }
-.user-navigation .basket-link {    /*выделяем место для иконки корзины*/
+.user-navigation .basket-link {    
   padding-left: 56px;
   position: relative;
   padding-top: 75px; 
 }
-.basket-link::before {             /*задаем иконку корзины*/
+.basket-link::before {             
   content: "";
   position: absolute;
   top: 102px;
@@ -167,14 +167,14 @@ input[type="radio"].visually-hidden {
   height: 15px;
   opacity: 0.3;
   }
-.site-navigation-item a,           /* цвет ссылок */
+.site-navigation-item a,           
 .user-navigation a {
    padding: 20px 20px;
    display: block;          
    vertical-align: middle;
    color: #000000;
 }
-.site-navigation-item a:hover,     /* реагирование ссылок */
+.site-navigation-item a:hover,     
 .site-navigation-item a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus { 
@@ -184,7 +184,7 @@ input[type="radio"].visually-hidden {
 .user-navigation a:active {
   color: #a6a6a6 ;
 }
-.site-navigation-current a {       /* Подчеркивание активной ссылки и цвет */
+.site-navigation-current a {       
  color: #000000;
  padding-bottom: 5px;
  border-bottom: 2px solid #f7898b;
@@ -209,7 +209,7 @@ input[type="radio"].visually-hidden {
   padding-top: 76px;
   list-style: none;
 }
-.site-navigation-item,             /* Обнуляем значение списков */
+.site-navigation-item,             
 .user-navigation,
 .site-navigation-current,
 .features-list,
@@ -390,12 +390,10 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   border: none;
-  /* Для демонстрации */
   width: 260px;
   margin: 50px auto; 
 }
- /* фильтр */
-.range-filter {
+ .range-filter {
   width: 260px;
     margin-top: 68px;
     margin-left: -20px;
@@ -846,8 +844,7 @@ input[type="radio"].visually-hidden {
  display: flex;
  flex-direction: row;
  align-items: center;
-  /* Временно для сетки */
-  min-height: 360px;
+ min-height: 360px;
 }
 .inner-page .main-header-logo {
   padding: 0px 18px;
@@ -1026,7 +1023,7 @@ input[type="radio"].visually-hidden {
   padding-top: 3px;
 }
 .modal-login { 
-  display: none;            /* отключение модальных окон */
+  display: none;           
  color: #000000;
  background-color: #ffffff;
  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
@@ -1343,3 +1340,5 @@ input[type="radio"].visually-hidden {
   color: #959595;
 }
 
+ /* Временно для сетки */
+  min-height: 360px;
