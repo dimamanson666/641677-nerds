@@ -1124,6 +1124,13 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   padding-bottom: 20px;
   }
+  .login-form .button {
+  width: 260px;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  border: none;
+  background-color: #fb565a;
+}
 .our-adress {
   box-sizing: border-box;
   position: absolute;
@@ -1343,15 +1350,5 @@ input[type="radio"].visually-hidden {
   background-color: #d5d5d5;
   color: #959595;
 }
-.login-form .button {
 
-  width: 260px;
-
-  padding-top: 18px;
-  padding-bottom: 14px;
-
-  border: none;
-
-  background-color: #fb565a;
-}
 
