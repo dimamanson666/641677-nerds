@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #000000;
-  min-width: 1440px;
+  min-width: 1200px;
 }
 
 a {
@@ -36,7 +36,6 @@ input[type="radio"].visually-hidden {
 
 .main-header {
   padding-top: 51px;
-  margin-bottom: 80px;
 }
 
 .main-header-logo {
