@@ -170,7 +170,7 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation-item h2 {
-  margin-top: -1px;
+  margin-top: 173px;
 }
 
 .catalog-item-image img {
@@ -446,7 +446,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-bottom: 78px;
+  margin-bottom: 251px;
   margin-left: 18px;
 }
 
@@ -638,7 +638,7 @@ input[type="radio"].visually-hidden {
 .filter-input-radio:checked+label::after {
   content: "";
   position: absolute;
-  top: 4px;
+  top: 5px;
   left: -26px;
   width: 9px;
   height: 9px;
@@ -827,7 +827,8 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-align: left;
   padding: 0;
-  height: 10px;
+  min-height: 45px;
+  margin-bottom: 0;
 }
 
 .footer-text {
